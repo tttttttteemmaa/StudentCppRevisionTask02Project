@@ -15,11 +15,12 @@
 *
 *	[ input 2]: 2
 *	[output 2]: 4
+*  5 +1 4 +@ 85387 +1
 *
 *	[ input 3]: 3
 *	[output 3]: 4
 */
 
 int taskX(int number) {
-	return 0;
+	return number % 2 > 0 ? number + 1 : number + 2;
 }

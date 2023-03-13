@@ -25,5 +25,5 @@
 */
 
 int task03(int number) {
-	return 0;
+    return abs(number / 10) % 10;
 }
